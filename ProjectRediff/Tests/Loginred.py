@@ -25,6 +25,8 @@ class LoginTest(unittest.TestCase):
         driver.get("https://www.rediff.com/")
         login = Loginrediff(driver)
 
+
+
         Horediff = Homerediff(driver)
         Homerediff.click_News(self)
 
@@ -46,8 +48,9 @@ class LoginTest(unittest.TestCase):
         Horediff = Homerediff(driver)
         Homerediff.click_REALTIMENEWS(self)
 
+
         #Horediff = Homerediff(driver)
-        #Homerediff.click_FARMERSSTIR(self)
+        Homerediff.click_FARMERSSTIR(self)
 
         @classmethod
         def tearDownClass(Test):

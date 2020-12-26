@@ -7,11 +7,11 @@ class Homerediff():
     def __init__(self, driver):
         self.driver = driver
         self.kal = "NEWS"
-
+        self.business = "BUSINESS"
         # actions
 
     def click_News(self):
-        self.driver.find_element_by_link_text("NEWS").click()
+        self.driver.find_element_by_link_text(self.kal).click()
 
     def click_BUSINESS(self):
         self.driver.find_element_by_link_text("BUSINESS").click()
@@ -30,7 +30,7 @@ class Homerediff():
 
     def click_REALTIMENEWS(self):
         self.driver.find_element_by_link_text("REALTIME NEWS").click();
-
-    #def click_FARMERSSTIR(self):
+        #method name farmerstrir
+    def click_FARMERSSTIR(self):
      #   self.driver.find_elements_by_xpath("//a[@innerstringmarker="FARMERS' STIR"]").click();
-
+        self.driver.find_element_by_partial_link_text("FARMERS").click();

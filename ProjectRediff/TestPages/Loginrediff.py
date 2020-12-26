@@ -1,5 +1,4 @@
 
-
 class Loginrediff():
 # first create constructor by given keyword def, constructor will be created whenever we are creating a class
 
@@ -13,4 +12,5 @@ class Loginrediff():
         self.username_textbox_linktext="SPORTS"
         self.username_textbox_linktext="GET AHEAD"
         self.username_textbox_linktext="REALTIME NEWS"
-        self.driver.find_elements_by_xpath="FARMERS 'STIR"
+        self.kalyan="FARMERS"
+
